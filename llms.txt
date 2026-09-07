@@ -1,0 +1,26 @@
+# Dn't B' Ordinary
+
+> Print-on-demand apparel and signage brand selling original sayings written by its founder. Based in the Buda, Texas area. Online only, made to order, no storefront.
+
+## Facts
+
+- Business name: Dn't B' Ordinary
+- Tagline: Wearable Attitude
+- Founder and sole operator: Brian Rudd
+- Established: 2026
+- Location: Buda, Texas area. Home based. No public street address and no walk-in location.
+- Sells: t-shirts, mugs, hats, metal signs, and large-format posters
+- Five collections: Sarcastic and Humor, Genuine, Sobriety, Mental Health Awareness, Motivation and Inspiration
+- The Sarcastic and Humor collection contains explicit language. The other four do not.
+- Every saying is original and written in house. No licensed or marketplace artwork is used.
+- All items are made to order after purchase. There is no inventory and no warehouse.
+- Checkout does not happen on this website. Orders are placed on the brand's Printify Pop-Up Store, and shipping and returns are governed by the policies shown at checkout there.
+- Contact is by email and the website contact form. No published phone number.
+- The Sobriety and Mental Health Awareness collections are merchandise only. They are not affiliated with, endorsed by, or partnered with any recovery program, treatment provider, hotline, or nonprofit, and they are not support, treatment, or advice.
+
+## Pages
+
+- [Home](https://CLIENTDOMAIN.com/): What the brand is, the five collections, and a look at the designs.
+- [Shop](https://CLIENTDOMAIN.com/shop): Detail on each of the five collections, how ordering works, and the FAQ.
+- [About](https://CLIENTDOMAIN.com/about): Who Brian Rudd is, how the business runs, and when it is not the right fit.
+- [Contact](https://CLIENTDOMAIN.com/contact): Message form for questions about designs, orders, or ideas for a saying.

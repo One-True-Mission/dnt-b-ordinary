@@ -1,0 +1,7 @@
+ASSET-CHECKLIST.md
+SPEC.md
+NOTES.md
+*.psd
+*.ai
+Thumbs.db
+.DS_Store
