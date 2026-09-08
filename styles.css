@@ -255,6 +255,10 @@ section[id] { scroll-margin-top: 90px; }
 .intro-media { position: relative; min-height: 420px; border-radius: var(--radius-card); background: var(--media-fallback); box-shadow: var(--shadow-soft); overflow: hidden; border: 1px solid var(--line); }
 .intro-media img { width: 100%; height: 100%; min-height: 420px; object-fit: cover; }
 .intro-badge { position: absolute; bottom: 22px; left: 22px; background: var(--frame-deep); color: #fff; padding: 16px 22px; border-radius: 10px; border-left: 3px solid var(--gold); box-shadow: var(--shadow-lift); z-index: 2; }
+/* Round portrait variant: the supplied headshot is a circular badge on a white
+   ground, so it is masked to the circle instead of cropped in a rectangle. */
+.intro-media--round { min-height: 0; background: none; border: none; box-shadow: none; overflow: visible; display: flex; align-items: center; justify-content: center; }
+.intro-media--round img { width: 100%; max-width: 440px; height: auto; min-height: 0; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 50%; border: 5px solid var(--rust); box-shadow: var(--shadow-lift); }
 .intro-badge strong { display: block; font-family: var(--font-display); font-size: 1.9rem; color: var(--gold-soft); line-height: 1; }
 .intro-badge span { font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--frame-deep-soft); }
 .intro-copy h2 { margin-bottom: 18px; }
