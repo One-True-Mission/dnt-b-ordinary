@@ -201,20 +201,11 @@ section[id] { scroll-margin-top: 90px; }
 /* ============================================================
    HERO
    ============================================================ */
-/* Banner hero. The sign is a real image element rather than a CSS background,
-   because `background-size: cover` can only fill a box by cropping whatever does
-   not fit, and a wide sign in a tall phone viewport loses most of its width.
-   As an <img> at width:100% / height:auto the browser sizes the box from the
-   file's own aspect ratio, so the entire image shows at every screen width and
-   keeps doing so if the file is ever swapped for a differently shaped one.
-   max-height plus object-fit: contain caps how tall it gets on a wide desktop
-   without ever cropping: the image letterboxes onto the dark anchor instead. */
-.hero { position: relative; background: var(--anchor); overflow: hidden; }
-.hero-banner { padding-top: 72px; background: var(--anchor); }
-.hero-banner img { display: block; width: 100%; height: auto; max-height: 62vh; object-fit: contain; background: var(--anchor); }
-.hero-body { background: var(--anchor); padding: 54px 0 64px; }
+.hero { position: relative; min-height: 88vh; display: flex; align-items: center; padding: 150px 0 96px; background-color: var(--anchor); background-image: url('assets/hero-home.jpg'); background-size: cover; background-position: center; overflow: hidden; }
+.hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(100deg, rgba(20, 17, 14, 0.68) 0%, rgba(20, 17, 14, 0.54) 45%, rgba(20, 17, 14, 0.26) 100%); }
 .hero .inner { position: relative; }
-.hero-content { max-width: 760px; }
+.hero-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 48px; align-items: center; }
+.hero-content { max-width: 700px; }
 .hero h1 { color: #fff; margin-bottom: 22px; }
 .hero h1 span { color: var(--rust-bright); }
 .hero p { color: #e2d8c8; font-size: 1.18rem; max-width: 580px; margin-bottom: 34px; }
@@ -479,7 +470,9 @@ body[data-page="thank-you"] .short-page, body[data-page="404"] .short-page { fle
    ============================================================ */
 @media (max-width: 1100px) {
   .container { padding: 50px 36px; }
-  .hero-badge img { max-width: 320px; }
+  .hero-grid { grid-template-columns: 1fr; gap: 40px; }
+  .hero-badge { order: -1; }
+  .hero-badge img { max-width: 300px; }
   .hero-content { max-width: none; }
   /* 5 collection tiles: 2 + 2 + 1 centered */
   .cat-grid { grid-template-columns: repeat(4, 1fr); }
@@ -495,8 +488,7 @@ body[data-page="thank-you"] .short-page, body[data-page="404"] .short-page { fle
   .nav-links { display: none; }
   .nav-cta { display: none; }
   .hamburger { display: block; }
-  .hero-banner img { max-height: 56vh; }
-  .hero-body { padding: 46px 0 54px; }
+  .hero { min-height: 78vh; }
   .intro-grid { grid-template-columns: 1fr; gap: 36px; }
   .intro-grid.reverse .intro-media { order: 0; }
   .intro-media, .intro-media img { min-height: 320px; }
@@ -511,9 +503,6 @@ body[data-page="thank-you"] .short-page, body[data-page="404"] .short-page { fle
 @media (max-width: 560px) {
   body { font-size: 16px; }
   .container { width: calc(100% - 32px); padding: 36px 22px; }
-  .hero-banner { padding-top: 60px; }
-  .hero-banner img { max-height: none; }
-  .hero-body { padding: 38px 0 46px; }
   .brand { gap: 10px; }
   .brand img { height: 42px; }
   .brand-word { font-size: 1.15rem; }
