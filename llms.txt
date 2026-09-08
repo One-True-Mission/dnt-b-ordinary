@@ -1,14 +1,15 @@
 # Dn't B' Ordinary
 
-> Print-on-demand apparel and signage brand selling original sayings written by its founder. Based in the Buda, Texas area. Online only, made to order, no storefront.
+> Print-on-demand apparel and signage brand selling original sayings written by its founder. Based in Austin, Texas. Online only, made to order, no storefront.
 
 ## Facts
 
 - Business name: Dn't B' Ordinary
 - Tagline: Wearable Attitude
-- Founder and sole operator: Brian Rudd
+- Founder and sole operator: Brian Rudd, who goes by B
+- Brian Rudd is an Austin, Texas native and writes every saying the brand sells
 - Established: 2026
-- Location: Buda, Texas area. Home based. No public street address and no walk-in location.
+- Location: Austin, Texas. Home based. No public street address and no walk-in location. Ships nationwide.
 - Sells: t-shirts, mugs, hats, metal signs, and large-format posters
 - Five collections: Sarcastic and Humor, Genuine, Sobriety, Mental Health Awareness, Motivation and Inspiration
 - The Sarcastic and Humor collection contains explicit language. The other four do not.
@@ -22,5 +23,5 @@
 
 - [Home](https://CLIENTDOMAIN.com/): What the brand is, the five collections, and a look at the designs.
 - [Shop](https://CLIENTDOMAIN.com/shop): Detail on each of the five collections, how ordering works, and the FAQ.
-- [About](https://CLIENTDOMAIN.com/about): Who Brian Rudd is, how the business runs, and when it is not the right fit.
+- [About](https://CLIENTDOMAIN.com/about): Brian Rudd's own account of why he started writing the sayings, how the business runs, and when it is not the right fit.
 - [Contact](https://CLIENTDOMAIN.com/contact): Message form for questions about designs, orders, or ideas for a saying.
