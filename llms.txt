@@ -1,6 +1,6 @@
 # Dn't B' Ordinary
 
-> Print-on-demand apparel and signage brand selling original sayings written by its founder. Based in Austin, Texas. Online only, made to order, no storefront.
+> Print-on-demand apparel and poster brand selling original sayings written by its founder. Based in Austin, Texas. Online only, made to order, no storefront.
 
 ## Facts
 
@@ -10,13 +10,14 @@
 - Brian Rudd is an Austin, Texas native and writes every saying the brand sells
 - Established: 2026
 - Location: Austin, Texas. Home based. No public street address and no walk-in location. Ships nationwide.
-- Sells: t-shirts, mugs, hats, metal signs, and large-format posters
+- Sells: t-shirts, mugs, hats, and large-format posters
 - Five collections: Sarcastic and Humor, Genuine, Sobriety, Mental Health Awareness, Motivation and Inspiration
 - The Sarcastic and Humor collection contains explicit language. The other four do not.
 - Every saying is original and written in house. No licensed or marketplace artwork is used.
 - All items are made to order after purchase. There is no inventory and no warehouse.
 - Checkout does not happen on this website. Orders are placed on the brand's Printify Pop-Up Store, and shipping and returns are governed by the policies shown at checkout there.
 - Contact is by email and the website contact form. No published phone number.
+- Dn't B' Ordinary is an independent business and is not affiliated with, endorsed by, or connected to any university, sports team, company, or other brand.
 - The Sobriety and Mental Health Awareness collections are merchandise only. They are not affiliated with, endorsed by, or partnered with any recovery program, treatment provider, hotline, or nonprofit, and they are not support, treatment, or advice.
 
 ## Pages
