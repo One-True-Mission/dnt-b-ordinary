@@ -461,6 +461,21 @@ body[data-page="thank-you"] .short-page, body[data-page="404"] .short-page { fle
 .notice { background: rgba(var(--rust-rgb), 0.09); border: 1px solid rgba(var(--rust-rgb), 0.3); border-left: 4px solid var(--rust); border-radius: 8px; padding: 20px 24px; margin: 24px 0; }
 .notice p:last-child { margin-bottom: 0; }
 
+/* ---------- CONTENT PROSE (container--prose WITHOUT the legal .prose ruleset) ----------
+   .container--prose only constrains width. All paragraph rhythm lives in .prose,
+   which the legal pages carry and content sections do not. Without these rules a
+   content section renders with margin:0 paragraphs from the reset. Scoped with
+   :not(.prose) so the legal pages are completely unaffected, and kept off .prose h2
+   so display headings keep their full size. */
+.container--prose:not(.prose) > .section-head { margin-bottom: 26px; }
+.container--prose:not(.prose) > p { color: var(--ink-soft); margin-bottom: 16px; }
+.container--prose:not(.prose) > p.lede { font-size: 1.12rem; margin-bottom: 22px; }
+.container--prose:not(.prose) > h3 { margin: 38px 0 14px; }
+.container--prose:not(.prose) > ul { display: grid; gap: 10px; margin-bottom: 16px; }
+.container--prose:not(.prose) > p:last-child { margin-bottom: 0; }
+.container--prose:not(.prose) a { color: var(--rust-deep); border-bottom: 1px solid rgba(var(--rust-rgb), 0.4); transition: color 0.2s ease, border-color 0.2s ease; }
+.container--prose:not(.prose) a:hover { color: var(--ink); border-color: var(--ink); }
+
 /* ---------- SCROLL REVEAL ---------- */
 .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
 .reveal.is-visible { opacity: 1; transform: none; }
@@ -528,6 +543,7 @@ body[data-page="thank-you"] .short-page, body[data-page="404"] .short-page { fle
   .contact-info { padding: 30px 24px; }
   .faq-q { padding: 18px 20px; font-size: 1.02rem; }
   .faq-answer p { padding: 0 20px 20px; }
+  .container--prose:not(.prose) > h3 { margin: 30px 0 12px; }
   .intro-media--portrait img { max-width: 320px; }
 }
 
