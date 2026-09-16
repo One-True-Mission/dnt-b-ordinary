@@ -204,18 +204,24 @@ section[id] { scroll-margin-top: 90px; }
 .hero { position: relative; min-height: 88vh; display: flex; align-items: center; padding: 150px 0 96px; background-color: var(--anchor); background-image: url('assets/hero-home.jpg'); background-size: cover; background-position: center; overflow: hidden; }
 .hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(100deg, rgba(20, 17, 14, 0.68) 0%, rgba(20, 17, 14, 0.54) 45%, rgba(20, 17, 14, 0.26) 100%); }
 .hero .inner { position: relative; }
-.hero-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 48px; align-items: center; }
-.hero-content { max-width: 700px; }
+/* Single-column hero, matches the OTM standard. Copy is capped at 760px so the
+   image behind it shows through on the right half, which is where a wide hero
+   background belongs. If a future variant of this build wants a hero graphic
+   again, do it as a decorative element inside a section below the fold, not
+   welded to the hero, so the image handling stays predictable across builds. */
+.hero-content { max-width: 760px; }
 .hero h1 { color: #fff; margin-bottom: 22px; }
 .hero h1 span { color: var(--rust-bright); }
-.hero p { color: #e2d8c8; font-size: 1.18rem; max-width: 580px; margin-bottom: 34px; }
+.hero p { color: #e2d8c8; font-size: 1.18rem; max-width: 620px; margin-bottom: 34px; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 16px; }
-/* The armadillo lockup ships on a solid ground, so it is framed as a patch.
-   If a transparent version lands, drop the border-radius and border and let the
-   drop-shadow do the work on its own. */
-.hero-badge { display: flex; justify-content: center; }
-.hero-badge img { width: 100%; max-width: 400px; height: auto; border-radius: 16px; border: 3px solid var(--gold); box-shadow: 0 18px 40px rgba(0, 0, 0, 0.55); }
 .hero-trust { display: flex; flex-wrap: wrap; gap: 14px 28px; margin-top: 36px; }
+
+/* Standalone badge display used inside the About page's #the-mark section.
+   Different context from the retired hero-badge concept: the badge sits inside
+   an .intro-grid on a dark contained card, not on the hero image, so it lives
+   under its own class. */
+.badge-display { display: flex; justify-content: center; }
+.badge-display img { width: 100%; max-width: 400px; height: auto; border-radius: 16px; border: 3px solid var(--gold); box-shadow: 0 18px 40px rgba(0, 0, 0, 0.55); }
 .hero-trust span { display: inline-flex; align-items: center; gap: 9px; font-size: 0.88rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #d8c9b2; }
 .hero-trust span::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 10px rgba(201, 150, 74, 0.9); }
 
@@ -485,9 +491,6 @@ body[data-page="thank-you"] .short-page, body[data-page="404"] .short-page { fle
    ============================================================ */
 @media (max-width: 1100px) {
   .container { padding: 50px 36px; }
-  .hero-grid { grid-template-columns: 1fr; gap: 40px; }
-  .hero-badge { order: -1; }
-  .hero-badge img { max-width: 300px; }
   .hero-content { max-width: none; }
   /* 5 collection tiles: 2 + 2 + 1 centered */
   .cat-grid { grid-template-columns: repeat(4, 1fr); }
