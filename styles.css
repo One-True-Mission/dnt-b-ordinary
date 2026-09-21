@@ -289,15 +289,15 @@ section[id] { scroll-margin-top: 90px; }
 
 .cat-card { background: var(--frame-card); border: 1px solid var(--line); border-radius: var(--radius-card); overflow: hidden; box-shadow: var(--shadow-soft); display: flex; flex-direction: column; transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease; }
 .cat-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); border-color: var(--rust); }
-.cat-card img { width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; border-bottom: 3px solid var(--rust); background: var(--media-fallback); }
+.cat-card img { width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: contain; border-bottom: 3px solid var(--rust); background: #f2ead6; padding: 8px; }
 .cat-card .card-body { padding: 28px 28px 32px; display: flex; flex-direction: column; flex: 1 1 auto; }
 .cat-card h3 { margin-bottom: 10px; }
 .cat-card p { color: var(--ink-soft); font-size: 0.98rem; }
 .cat-note { display: inline-block; margin-top: 12px; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); opacity: 0.82; }
-.cat-card .card-link { display: inline-block; margin-top: 16px; font-family: var(--font-display); font-size: 1.08rem; letter-spacing: 0.06em; color: var(--rust-deep); }
+.cat-card .card-link { display: inline-block; margin-top: auto; padding-top: 16px; font-family: var(--font-display); font-size: 1.08rem; letter-spacing: 0.06em; color: var(--rust-deep); }
 .cat-card .card-link:hover { color: var(--rust); }
 .cat-card .btn { margin-top: auto; }
-.cat-card .card-body > .btn { margin-top: 22px; }
+.cat-card .card-body > .btn { margin-top: auto; }
 
 /* ============================================================
    GALLERY CAROUSEL (featured-center, auto-advancing, accent framed)
