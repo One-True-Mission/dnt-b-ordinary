@@ -10,6 +10,6 @@ User-agent: *
 Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 
-Sitemap: https://CLIENTDOMAIN.com/sitemap.xml
+Sitemap: https://dntbordinary.com/sitemap.xml
 
-# AI-readable site summary: https://CLIENTDOMAIN.com/llms.txt
+# AI-readable site summary: https://dntbordinary.com/llms.txt

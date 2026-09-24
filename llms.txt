@@ -11,7 +11,7 @@
 - Established: 2026
 - Location: Austin, Texas. Home based. No public street address and no walk-in location. Ships nationwide.
 - Sells: t-shirts, mugs, hats, and large-format posters
-- Five collections: Sarcastic and Humor, Genuine, Sobriety, Mental Health Awareness, Motivation and Inspiration
+- Six collections: five saying-based (Sarcastic and Humor, Genuine, Sobriety, Mental Health Awareness, Motivation and Inspiration), plus Hats and Mugs which mixes designs from every other collection onto hats and coffee mugs
 - The Sarcastic and Humor collection contains explicit language. The other four do not.
 - Every saying is original and written in house. No licensed or marketplace artwork is used.
 - All items are made to order after purchase. There is no inventory and no warehouse.
@@ -22,7 +22,7 @@
 
 ## Pages
 
-- [Home](https://CLIENTDOMAIN.com/): What the brand is, the five collections, and a look at the designs.
-- [Shop](https://CLIENTDOMAIN.com/shop): Detail on each of the five collections, how ordering works, and the FAQ.
-- [About](https://CLIENTDOMAIN.com/about): Brian Rudd's own account of why he started writing the sayings, how the business runs, and when it is not the right fit.
-- [Contact](https://CLIENTDOMAIN.com/contact): Message form for questions about designs, orders, or ideas for a saying.
+- [Home](https://dntbordinary.com/): What the brand is, the six collections, and a look at the designs.
+- [Shop](https://dntbordinary.com/shop.html): Detail on each of the six collections, how ordering works, and the FAQ.
+- [About](https://dntbordinary.com/about.html): Brian Rudd's own account of why he started writing the sayings, how the business runs, and when it is not the right fit.
+- [Contact](https://dntbordinary.com/contact.html): Message form for questions about designs, orders, or ideas for a saying.
