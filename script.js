@@ -8,13 +8,17 @@
   /* ------------------------------------------------------------
      STORE URL: the ONE place the Printify Pop-Up Store link lives.
      Swap this single string if the store address ever changes, and
-     every buy button, nav CTA, and collection button follows.
-     Every store link in the HTML carries data-store-link.
+     every store link on the site follows.
+     Every store link in the HTML carries data-store-link:
+       data-store-link                 -> store home
+       data-store-link="genuine"       -> that collection
+     The value is the collection slug from the Printify store URL.
      ------------------------------------------------------------ */
   var STORE_URL = "https://dnt-b-ordinary.printify.me";
 
   document.querySelectorAll("[data-store-link]").forEach(function (a) {
-    a.setAttribute("href", STORE_URL);
+    var slug = a.getAttribute("data-store-link");
+    a.setAttribute("href", slug ? STORE_URL + "/collection/" + slug : STORE_URL);
     a.setAttribute("rel", "noopener");
     a.setAttribute("target", "_blank");
   });
